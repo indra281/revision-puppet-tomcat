@@ -2,7 +2,7 @@
 #
 #
 class tomcat::install {
-  package {['tomcat', 'tomcat-webapp']:
+  package {['tomcat', 'tomcat-webapps']:
 
   }
 }
